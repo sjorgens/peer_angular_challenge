@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="scripts/vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <!--<link rel="stylesheet" href="styles/style.css">-->
+</head>
+
+
+<body ng-controller="myController">
+
+
+
+<button ng-click="loadCandidates()">Load</button>
+
+
+<button ng-click="kickOff()">Kick Off</button>
+
+<h2 class="dem">Democrats:</h2>
+<ul ng-repeat="person in dems">
+    <li>{{person.name}}</li>
+</ul>
+
+<h2 class="rep">Republicans:</h2>
+<ul ng-repeat="person in repubs">
+    <li>{{person.name}}</li>
+</ul>
+
+<h2 class="final"> Finalists:
+<div id="democrat">Democratic Candidate: {{demoCan}}</div>
+<div id="republican">Republican Candidate: {{repubCan}}</div>
+</h2>
+
+
+<h1 id="winner">Winner: {{winner}}</h1>
+
+
+
+
+</body>
+</html>

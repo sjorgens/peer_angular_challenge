@@ -1,0 +1,27 @@
+
+
+
+{
+  "demCandidates": [
+    {
+      "name": "Malik Yoshi",
+      "state": "Texas"
+
+    },
+    {
+      "name": "Leslie Lamere",
+      "state": "Hawaii"
+    },
+    {
+      "name": "Nolan Barrfind",
+      "state": "New York"
+    },
+    {
+      "name": "Bob Blah",
+      "state": "Washington"
+    },{
+      "name": "Ralph Schmedley",
+      "state": "Florida"
+    }
+  ]
+}

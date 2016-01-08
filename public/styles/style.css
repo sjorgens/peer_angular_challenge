@@ -1,0 +1,27 @@
+/*body {*/
+    /*background-color: red;*/
+/*}*/
+.dem, #democrat {
+    color: blue;
+}
+.dem {
+    background-image: url('http://www.thetimes.co.uk/tto/multimedia/archive/00446/135528011_yoda_446072c.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+    display: inline-block;
+    float: left;
+}
+.rep, #republican {
+    color: red;
+}
+.rep {
+    background-image: url('http://static.comicvine.com/uploads/original/11122/111225301/4964212-4766366-4684395-insidious_smile.jpg');
+    height: 500px;
+    width: 600px;
+    display: inline-block;
+    float: right;
+}
+.final {
+    color: yellow;
+}

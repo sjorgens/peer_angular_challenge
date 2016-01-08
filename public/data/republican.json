@@ -1,0 +1,27 @@
+
+
+
+{
+  "repubCandidates": [
+    {
+      "name": "Rick Sanchez",
+      "state": "Arizona"
+
+    },
+    {
+      "name": "Leslie Neelson",
+      "state": "New Jersey"
+    },
+    {
+      "name": "Bob Horner",
+      "state": "Georgia"
+    },
+    {
+      "name": "Bobo Fet",
+      "state": "Kamino"
+    },{
+      "name": "Han Solo",
+      "state": "Corellia"
+    }
+  ]
+}
